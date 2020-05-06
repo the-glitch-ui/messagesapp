@@ -1,6 +1,7 @@
 # Message app in React
 
-> A message app component in React
+> A message app component in React. 
+
 > Demo: https://the-glitch-ui.github.io/messagesapp/
 
 ## Table of contents
@@ -41,8 +42,9 @@ Current features (focused on Front-End):
 - Display the name of the person which you're talking to
 - This app demo is for test purposes, limiting the user to be able to send 5 messages
 
-To-do list:
+What else could be added?
 
+- Display user's avatar
 - Send messages to a real server
 - Load messages from server
 - Complementary Back-End services
