@@ -1,68 +1,96 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Message app in React
 
-## Available Scripts
+> A message app component in React
+> Demo: https://the-glitch-ui.github.io/messagesapp/
 
-In the project directory, you can run:
+## Table of contents
 
-### `npm start`
+- [General info](#general-info)
+- [Screenshots](#screenshots)
+- [Technologies](#technologies)
+- [Setup](#setup)
+- [Features](#features)
+- [Skills practised](#skills)
+- [Status](#status)
+- [Contact](#contact)
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## General info
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+Starting from a create-react-app, this project renders a message app and updates the UI with the new typed messages.
 
-### `npm test`
+## Screenshots
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+![Message App](https://github.com/the-glitch-ui/messagesapp/blob/master/img_messages.jpg)
 
-### `npm run build`
+## Built with
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- React - version 16.13.1 [(create-react-app)](https://github.com/facebook/create-react-app)
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+## Setup
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Clone and "npm start"
 
-### `npm run eject`
+## Features
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+Current features (focused on Front-End):
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- Write a new message using the input field
+- Identify between own written messages or incomming
+- Render message balloons in different style, depending on the sender
+- Get the current time and display it along with the message
+- Display the name of the person which you're talking to
+- This app demo is for test purposes, limiting the user to be able to send 5 messages
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+To-do list:
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+- Send messages to a real server
+- Load messages from server
+- Complementary Back-End services
 
-## Learn More
+## Skills practised
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+1. React
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+   - Updating the state
+   - Stateless Functional Components
+   - Reusable components
+   - Passing props
+   - PropTypes
+   - Refactoring components
 
-### Code Splitting
+2. JavaScript (ES2015 / ES6)
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+   - Event handlers
+   - OnClick handlers
+   - Arrow functions
+   - Destructuring arguments
+   - Template literals
+   - Ternary operators
+   - Spread operator
+   - Immutable updates
+   - Conditional rendering
+   - map array
+   - Pushing new objects in array
+   - Asynchronous JavaScript
+   - Regular expresions
+   - Getting current time
 
-### Analyzing the Bundle Size
+3. HTML5 & CSS3
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+   - Disabled attribute
+   - CSS Modules
+   - Concentrical property sorting
+   - Flexbox
+   - Transforms
+   - Forms
 
-### Making a Progressive Web App
+4. Design
+   - User Interface
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+## Status
 
-### Advanced Configuration
+Project is: _finished_
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
+## Contact
 
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+Created by [The Glitch UI](https://github.com/the-glitch-ui)
